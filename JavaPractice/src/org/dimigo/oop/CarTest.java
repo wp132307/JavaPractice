@@ -20,9 +20,12 @@ public class CarTest {
 	
 	public static void main(String[] args) {
 		//Car car = new Car();
-		Car2 car = new Car2();
-		Car2 car2 = new Car2("기아자동차","K7","검정색",246,40000000);
-		Car2 car3 = new Car2("삼성자동차","SM7","회색",200,38000000);
+//		Car2 car = new Car2();
+//		Car2 car2 = new Car2("기아자동차","K7","검정색",246,40000000);
+//		Car2 car3 = new Car2("삼성자동차","SM7","회색",200,38000000);
+		Car3 car = new Car3();
+		Car3 car2  = new Car3("기아자동차","K7","검정색",246);
+		Car3 car3 = new Car3("삼성자동차","SM7","회색");
 		
 		System.out.println("<<자동차 목록>>");
 		System.out.println("제조사명 : " + car.getCompany());
