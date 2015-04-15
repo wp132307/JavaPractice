@@ -17,6 +17,7 @@ package org.dimigo.oop;
  */
 public class Car {
 
+	
 	private String company = "현대자동차";
 	private String model = "제네시스";
 	private String color = "검정색";

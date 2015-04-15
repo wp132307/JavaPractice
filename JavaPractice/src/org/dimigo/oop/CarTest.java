@@ -21,7 +21,7 @@ public class CarTest {
 	public static void main(String[] args) {
 		Car car = new Car();
 		
-		System.out.println("<< 자동차 목록 >>");
+		System.out.println("<<자동차 목록>>");
 		System.out.println("제조사명 : " + car.getCompany());
 		System.out.println("모델명 : " + car.getModel());
 		System.out.println("색상 : " + car.getColor());
@@ -35,7 +35,6 @@ public class CarTest {
 		car.setMaxSpeed(246);
 		car.setprice(40000000);
 		
-		System.out.println("<< 자동차 목록 >>");
 		System.out.println("제조사명 : " + car.getCompany());
 		System.out.println("모델명 : " + car.getModel());
 		System.out.println("색상 : " + car.getColor());
@@ -49,7 +48,6 @@ public class CarTest {
 		car.setMaxSpeed(200);
 		car.setprice(38000000);
 		
-		System.out.println("<< 자동차 목록 >>");
 		System.out.println("제조사명 : " + car.getCompany());
 		System.out.println("모델명 : " + car.getModel());
 		System.out.println("색상 : " + car.getColor());
