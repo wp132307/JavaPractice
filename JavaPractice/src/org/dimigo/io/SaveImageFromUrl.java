@@ -42,7 +42,6 @@ public class SaveImageFromUrl {
 				os.write(buf, 0, result);
 			}
 				
-			System.out.println("파일 생성 완료!!");
 			} catch(Exception e) {
 			e.printStackTrace();
 			}
