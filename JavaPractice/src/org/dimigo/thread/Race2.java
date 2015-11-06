@@ -25,7 +25,7 @@ public class Race2 {
 		System.out.println("main thread start");
 		
 		Thread t1 = new Thread(new Runner2("홍길동"));
-		Thread t2 = new Thread(new Runner("홍길순"));
+		Thread t2 = new Thread(new Runner2("홍길순"));
 		
 		t1.start();
 		t2.start();
